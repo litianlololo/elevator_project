@@ -78,7 +78,7 @@ open_progress = []
 for qwerty in range(ELEVATOR_NUM):
     # inner_requests.append([])  # add list
     elevator_states.append(ElevatorState.normal)  # 默认正常
-    cur_floor.append(1)  # 默认在1楼
+    cur_floor.append(1)  # 默认在1楼·
     up_targets.append([])  # 二维数组
     down_targets.append([])  # 二维数组
     is_close_button_clicked.append(False)  # 默认开门关门键没按
